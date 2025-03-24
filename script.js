@@ -37,7 +37,7 @@ if (toggle.style.backgroundColor === "white"){
         toggle.style.color = "white"
     })
 }
-toggle.addEventListener("click", function(){
+toggle.addEventListener("click", ()=>{
     console.log("skift til mørk")
     if(Darkmode){
         Darkmode = false
